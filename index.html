@@ -4,8 +4,10 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Sprint Challenge - Home</title>
+	<link rel="stylesheet" href="css/index.css"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
@@ -16,38 +18,46 @@
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
+				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+			
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
-			</div>
+				<nav>
+					<div class="navigation">
+						<a href="menu.html">Menu</a>
+						<a href="#">Reservations</a>
+						<a href="#">Special Offers</a>
+						<a href="#">Contact</a>
+					</div>
+		
+					<div class="social">
+						<link>
+						<a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+						<a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+						<a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+						</link>
+					</div>
+				</nav>
 		</header>
+
+		<section class="hero-image">
+
+		</section>
 
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg" alt="food-avocadotoast">
+				<img src="img/food-burger.jpg" alt="food-burger">
+				<img src="img/food-poutine.jpg" alt="food-poutine">
+				<img src="img/food-ribs.jpg" alt="food-ribs">
+				<img src="img/food-sandwich.jpg" alt="food-sandwich">
+				<img src="img/food-sausage.jpg" alt="food-sausage">
+				<img src="img/food-steak.jpg" alt="food-steak">
+				<img src="img/food-tacos.jpg" alt="food-tacos">
+				<img src="img/food-wings.jpg" alt="food-wings">
 
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
 			</div>
 		</section>
 
@@ -68,8 +78,7 @@
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
 						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
+						dolore short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
 						shankle duis chicken dolore andouille do tenderloin qui.</p>
 				</div>
 
@@ -111,7 +120,7 @@
 						<h3>Contacts</h3>
 
 						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
+							<a id="phone" href="tel:999-999-9999">999-999-9999</a><br>
 							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
 						</div>
 					</div>
@@ -125,15 +134,30 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<div>
+				<form action="/action_page.php">
+					<label for="email">Join our mailing list!</label>
+  					<input type="email" id="email" name="email" placeholder="Email Address" required>
+ 					<button type="submit">Sign Up</button>
+				</form>
+			</div>
+
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+
+			<div class="nav">
+				<nav>
+					<a href="menu.html">Menu</a>
+					<a href="#">Reservations</a>
+					<a href="#">Special Offers</a>
+					<a href="#">Contact</a>	
+				</nav>
+
+
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+
+				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
+
 		</footer>
 	</div>
 </body>

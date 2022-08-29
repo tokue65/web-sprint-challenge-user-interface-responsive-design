@@ -47,8 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+
+/* end reset */
+
+
 * {
     box-sizing: border-box;
+
 }
 
 html {
@@ -91,6 +96,13 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #fff
 }
 
 /* spacers */
